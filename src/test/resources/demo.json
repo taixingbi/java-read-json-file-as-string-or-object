@@ -1,0 +1,1666 @@
+{
+    "shops" : [ {
+        "applicable_taxes" : [ {
+            "code" : "TAXDEFAULT",
+            "label" : "Default VAT"
+        } ],
+        "approval_delay" : null,
+        "approval_rate" : null,
+        "banner" : null,
+        "billing_info" : {
+            "bank_city" : null,
+            "bank_name" : null,
+            "bank_street" : null,
+            "bic" : null,
+            "iban" : null,
+            "owner" : null,
+            "zip_code" : null
+        },
+        "channels" : [ "INIT" ],
+        "closed_from" : "2019-05-20T04:00:00Z",
+        "closed_to" : "2020-02-21T04:59:59Z",
+        "contact_informations" : {
+            "city" : "New York",
+            "civility" : "Mr",
+            "country" : "USA",
+            "email" : "crajusports11+1@gmail.com",
+            "fax" : "213-509-6997",
+            "firstname" : "Doe",
+            "lastname" : "John",
+            "phone" : "213-509-6995",
+            "phone_secondary" : "213-509-6996",
+            "state" : "Manhattan",
+            "street1" : "30, Prince Street",
+            "street2" : "1st floor",
+            "web_site" : "https://www.mirakl.com",
+            "zip_code" : "NY 10012"
+        },
+        "currency_iso_code" : "USD",
+        "date_created" : "2021-08-05T13:38:12Z",
+        "description" : "Games seller",
+        "domains" : [ "PRODUCT" ],
+        "evaluations_count" : 0,
+        "free_shipping" : false,
+        "grade" : null,
+        "immunity_date" : "2022-02-20T05:00:00Z",
+        "is_professional" : true,
+        "kyc" : {
+            "reason" : null,
+            "status" : "APPROVED"
+        },
+        "last_updated_date" : "2021-09-28T14:52:11Z",
+        "logo" : null,
+        "offers_count" : 0,
+        "operator_internal_id" : "2003",
+        "order_messages_response_delay" : null,
+        "orders_count" : 0,
+        "payment_details" : {
+            "paid_balance" : 0.00,
+            "pay_subscription" : true,
+            "payable_balance" : 0.00,
+            "payment_blocked" : false,
+            "pending_balance" : 0.00,
+            "subscription_free_from" : null,
+            "subscription_free_to" : null
+        },
+        "payment_info" : {
+            "@type" : "ABA",
+            "bank_account_number" : "000123456789123",
+            "bank_city" : "New York",
+            "bank_name" : "Bank of America",
+            "bank_street" : "115 W 42nd St",
+            "bank_zip" : "NY 10036 US",
+            "bic" : "BOFAUS3NXXX",
+            "owner" : "John Doe",
+            "routing_number" : "789456124"
+        },
+        "premium" : false,
+        "premium_state" : "DEFAULT",
+        "pro_details" : {
+            "VAT_number" : "XXX-XX-XXXX",
+            "corporate_name" : "ACME SHOP",
+            "identification_number" : "01234567",
+            "tax_identification_number" : "XXX-XX-XXXX"
+        },
+        "return_policy" : "Any product return must be the subject of a formal agreement between the Seller and Purchaser. Any product returned without this agreement shall be held on behalf of the Purchaser and shall not give rise to the granting of any credit note. Claims must be received by shop within 8 days of the delivery of the goods. Subsequently to this delay, no claims shall be accepted. Once this delay has expired, should the client not have addressed their claim in writing to shop, the client is deemed to have accepted the product.Warranties that cover the delivered goods only apply within the framework of their intended use. Defects and damage resulting from natural wear, faulty assembly or maintenance, as well as modification of the products that was not intended or specified by the Seller are excluded from the warranty. Goods must be returned in their original packaging and as new, the cost and risks of returning the goods being borne by the Purchaser. Once the returned goods have been received and inspected, shop shall send the Purchaser a credit note corresponding to the amount of the original invoice, after deduction of any compensation or expenses which arise from any reconditioning work deemed necessary. This sum is credited to the account that the Purchaser has opened with the shop",
+        "shipping_country" : "USA",
+        "shipping_types" : [ "STD" ],
+        "shipping_zones" : [ "ML" ],
+        "shippings" : [ {
+            "additional_fields" : [ ],
+            "shipping_free_amount" : null,
+            "shipping_type_code" : "STD",
+            "shipping_type_label" : "Standard",
+            "shipping_zone_code" : "ML",
+            "shipping_zone_label" : "Mainland"
+        } ],
+        "shop_additional_fields" : [ {
+            "code" : "1099required",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        }, {
+            "code" : "amexaccepted",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "departmentnumber",
+            "type" : "MULTIPLE_VALUES_LIST",
+            "value" : [ "Department1" ]
+        }, {
+            "code" : "fobpoint",
+            "type" : "STRING",
+            "value" : "fobpoint"
+        }, {
+            "code" : "freightpayment",
+            "type" : "STRING",
+            "value" : "freightpayment"
+        }, {
+            "code" : "invoicecurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "managerapproval",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "manageremail",
+            "type" : "STRING",
+            "value" : "manageremailaddress"
+        }, {
+            "code" : "managerfirstname",
+            "type" : "STRING",
+            "value" : "first name"
+        }, {
+            "code" : "managerlastname",
+            "type" : "STRING",
+            "value" : "last name"
+        }, {
+            "code" : "managerphone",
+            "type" : "STRING",
+            "value" : "Phone number "
+        }, {
+            "code" : "manageruserid",
+            "type" : "STRING",
+            "value" : "manageruserid"
+        }, {
+            "code" : "manufacturername",
+            "type" : "STRING",
+            "value" : "manufacturer name goes here "
+        }, {
+            "code" : "paygroup",
+            "type" : "LIST",
+            "value" : "Marketplace"
+        }, {
+            "code" : "paymentcurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "paymentmethod",
+            "type" : "LIST",
+            "value" : "ElectronicPayment"
+        }, {
+            "code" : "paymentterms",
+            "type" : "LIST",
+            "value" : "Bi-weekly"
+        }, {
+            "code" : "paypriority",
+            "type" : "LIST",
+            "value" : "50"
+        }, {
+            "code" : "usvendor",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        } ],
+        "shop_id" : 2004,
+        "shop_name" : "ACME SHOP",
+        "shop_state" : "OPEN",
+        "suspension_type" : null
+    }, {
+        "applicable_taxes" : [ {
+            "code" : "TAXDEFAULT",
+            "label" : "Default VAT"
+        } ],
+        "approval_delay" : null,
+        "approval_rate" : null,
+        "banner" : null,
+        "billing_info" : {
+            "bank_city" : null,
+            "bank_name" : null,
+            "bank_street" : null,
+            "bic" : null,
+            "iban" : null,
+            "owner" : null,
+            "zip_code" : null
+        },
+        "channels" : [ "INIT" ],
+        "closed_from" : null,
+        "closed_to" : null,
+        "contact_informations" : {
+            "city" : "New York",
+            "civility" : "Miss",
+            "country" : "USA",
+            "email" : "connie.szeto+@saks.com",
+            "fax" : null,
+            "firstname" : "Connie",
+            "lastname" : "Hasacape",
+            "phone" : null,
+            "phone_secondary" : null,
+            "state" : "NY",
+            "street1" : "225 Liberty St",
+            "street2" : null,
+            "web_site" : null,
+            "zip_code" : "10281"
+        },
+        "currency_iso_code" : "USD",
+        "date_created" : "2021-08-10T17:45:08Z",
+        "description" : null,
+        "domains" : [ "PRODUCT" ],
+        "evaluations_count" : 0,
+        "free_shipping" : false,
+        "grade" : null,
+        "immunity_date" : null,
+        "is_professional" : true,
+        "kyc" : {
+            "reason" : null,
+            "status" : "APPROVED"
+        },
+        "last_updated_date" : "2021-09-28T14:52:11Z",
+        "logo" : "https://saksus-dev.mirakl.net/mmp/media/shop-logo/2006",
+        "offers_count" : 0,
+        "operator_internal_id" : null,
+        "order_messages_response_delay" : null,
+        "orders_count" : 0,
+        "payment_details" : {
+            "paid_balance" : 0.00,
+            "pay_subscription" : true,
+            "payable_balance" : 0.00,
+            "payment_blocked" : false,
+            "pending_balance" : 0.00,
+            "subscription_free_from" : null,
+            "subscription_free_to" : null
+        },
+        "premium" : false,
+        "premium_state" : "DEFAULT",
+        "pro_details" : {
+            "VAT_number" : null,
+            "corporate_name" : "Connie's Capes &  Co.",
+            "identification_number" : null,
+            "tax_identification_number" : null
+        },
+        "return_policy" : null,
+        "shipping_country" : null,
+        "shipping_types" : [ "STD" ],
+        "shipping_zones" : [ "ML" ],
+        "shippings" : [ {
+            "additional_fields" : [ ],
+            "shipping_free_amount" : null,
+            "shipping_type_code" : "STD",
+            "shipping_type_label" : "Standard",
+            "shipping_zone_code" : "ML",
+            "shipping_zone_label" : "Mainland"
+        } ],
+        "shop_additional_fields" : [ {
+            "code" : "1099required",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        }, {
+            "code" : "amexaccepted",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "departmentnumber",
+            "type" : "MULTIPLE_VALUES_LIST",
+            "value" : [ "Department1" ]
+        }, {
+            "code" : "fobpoint",
+            "type" : "STRING",
+            "value" : "fobpoint"
+        }, {
+            "code" : "freightpayment",
+            "type" : "STRING",
+            "value" : "freightpayment"
+        }, {
+            "code" : "invoicecurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "managerapproval",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "manageremail",
+            "type" : "STRING",
+            "value" : "manageremailaddress"
+        }, {
+            "code" : "managerfirstname",
+            "type" : "STRING",
+            "value" : "first name"
+        }, {
+            "code" : "managerlastname",
+            "type" : "STRING",
+            "value" : "last name"
+        }, {
+            "code" : "managerphone",
+            "type" : "STRING",
+            "value" : "Phone number "
+        }, {
+            "code" : "manageruserid",
+            "type" : "STRING",
+            "value" : "manageruserid"
+        }, {
+            "code" : "manufacturername",
+            "type" : "STRING",
+            "value" : "manufacturer name goes here "
+        }, {
+            "code" : "paygroup",
+            "type" : "LIST",
+            "value" : "Marketplace"
+        }, {
+            "code" : "paymentcurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "paymentmethod",
+            "type" : "LIST",
+            "value" : "ElectronicPayment"
+        }, {
+            "code" : "paymentterms",
+            "type" : "LIST",
+            "value" : "Bi-weekly"
+        }, {
+            "code" : "paypriority",
+            "type" : "LIST",
+            "value" : "50"
+        }, {
+            "code" : "usvendor",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        } ],
+        "shop_id" : 2006,
+        "shop_name" : "Connie's Capes",
+        "shop_state" : "OPEN",
+        "suspension_type" : null
+    }, {
+        "applicable_taxes" : [ {
+            "code" : "TAXDEFAULT",
+            "label" : "Default VAT"
+        } ],
+        "approval_delay" : 444604,
+        "approval_rate" : 0.0000,
+        "banner" : null,
+        "billing_info" : {
+            "bank_city" : null,
+            "bank_name" : null,
+            "bank_street" : null,
+            "bic" : null,
+            "iban" : null,
+            "owner" : null,
+            "zip_code" : null
+        },
+        "channels" : [ "INIT" ],
+        "closed_from" : null,
+        "closed_to" : null,
+        "contact_informations" : {
+            "city" : "New York",
+            "civility" : "Mr",
+            "country" : "USA",
+            "email" : "miraklseller@mailinator.com",
+            "fax" : null,
+            "firstname" : "Deepak",
+            "lastname" : "Velayudhan",
+            "phone" : null,
+            "phone_secondary" : null,
+            "state" : "NY",
+            "street1" : "225 Liberty St",
+            "street2" : null,
+            "web_site" : null,
+            "zip_code" : "10281"
+        },
+        "currency_iso_code" : "USD",
+        "date_created" : "2021-08-11T18:58:03Z",
+        "description" : null,
+        "domains" : [ "PRODUCT" ],
+        "evaluations_count" : 0,
+        "free_shipping" : false,
+        "grade" : null,
+        "immunity_date" : null,
+        "is_professional" : true,
+        "kyc" : {
+            "reason" : null,
+            "status" : "APPROVED"
+        },
+        "last_updated_date" : "2021-09-28T14:52:11Z",
+        "logo" : null,
+        "offers_count" : 0,
+        "operator_internal_id" : null,
+        "order_messages_response_delay" : null,
+        "orders_count" : 0,
+        "payment_details" : {
+            "paid_balance" : 0.00,
+            "pay_subscription" : true,
+            "payable_balance" : 0.00,
+            "payment_blocked" : false,
+            "pending_balance" : 0.00,
+            "subscription_free_from" : null,
+            "subscription_free_to" : null
+        },
+        "premium" : false,
+        "premium_state" : "DEFAULT",
+        "pro_details" : {
+            "VAT_number" : null,
+            "corporate_name" : "Deepak Inc.",
+            "identification_number" : null,
+            "tax_identification_number" : null
+        },
+        "return_policy" : null,
+        "shipping_country" : null,
+        "shipping_types" : [ "STD" ],
+        "shipping_zones" : [ "ML" ],
+        "shippings" : [ {
+            "additional_fields" : [ ],
+            "shipping_free_amount" : null,
+            "shipping_type_code" : "STD",
+            "shipping_type_label" : "Standard",
+            "shipping_zone_code" : "ML",
+            "shipping_zone_label" : "Mainland"
+        } ],
+        "shop_additional_fields" : [ {
+            "code" : "1099required",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        }, {
+            "code" : "amexaccepted",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "departmentnumber",
+            "type" : "MULTIPLE_VALUES_LIST",
+            "value" : [ "Department1" ]
+        }, {
+            "code" : "fobpoint",
+            "type" : "STRING",
+            "value" : "fobpoint"
+        }, {
+            "code" : "freightpayment",
+            "type" : "STRING",
+            "value" : "freightpayment"
+        }, {
+            "code" : "invoicecurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "managerapproval",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "manageremail",
+            "type" : "STRING",
+            "value" : "manageremailaddress"
+        }, {
+            "code" : "managerfirstname",
+            "type" : "STRING",
+            "value" : "first name"
+        }, {
+            "code" : "managerlastname",
+            "type" : "STRING",
+            "value" : "last name"
+        }, {
+            "code" : "managerphone",
+            "type" : "STRING",
+            "value" : "Phone number "
+        }, {
+            "code" : "manageruserid",
+            "type" : "STRING",
+            "value" : "manageruserid"
+        }, {
+            "code" : "manufacturername",
+            "type" : "STRING",
+            "value" : "manufacturer name goes here "
+        }, {
+            "code" : "paygroup",
+            "type" : "LIST",
+            "value" : "Marketplace"
+        }, {
+            "code" : "paymentcurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "paymentmethod",
+            "type" : "LIST",
+            "value" : "ElectronicPayment"
+        }, {
+            "code" : "paymentterms",
+            "type" : "LIST",
+            "value" : "Bi-weekly"
+        }, {
+            "code" : "paypriority",
+            "type" : "LIST",
+            "value" : "50"
+        }, {
+            "code" : "usvendor",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        } ],
+        "shop_id" : 2008,
+        "shop_name" : "Deepak Inc",
+        "shop_state" : "SUSPENDED",
+        "suspension_type" : "AUTOMATIC_SUSPENSION"
+    }, {
+        "applicable_taxes" : [ {
+            "code" : "TAXDEFAULT",
+            "label" : "Default VAT"
+        } ],
+        "approval_delay" : null,
+        "approval_rate" : null,
+        "banner" : null,
+        "billing_info" : {
+            "bank_city" : null,
+            "bank_name" : null,
+            "bank_street" : null,
+            "bic" : null,
+            "iban" : null,
+            "owner" : null,
+            "zip_code" : null
+        },
+        "channels" : [ "INIT" ],
+        "closed_from" : null,
+        "closed_to" : null,
+        "contact_informations" : {
+            "city" : "New York",
+            "civility" : "Miss",
+            "country" : "USA",
+            "email" : "erin.oreilly+saks@mirakl.com",
+            "fax" : null,
+            "firstname" : "Erin",
+            "lastname" : "O'Reilly",
+            "phone" : null,
+            "phone_secondary" : null,
+            "state" : "New York",
+            "street1" : "234 E 5th St",
+            "street2" : null,
+            "web_site" : null,
+            "zip_code" : "10003"
+        },
+        "currency_iso_code" : "USD",
+        "date_created" : "2021-08-10T12:16:17Z",
+        "description" : null,
+        "domains" : [ "PRODUCT" ],
+        "evaluations_count" : 0,
+        "free_shipping" : false,
+        "grade" : null,
+        "immunity_date" : null,
+        "is_professional" : true,
+        "kyc" : {
+            "reason" : null,
+            "status" : "APPROVED"
+        },
+        "last_updated_date" : "2021-09-28T14:52:11Z",
+        "logo" : null,
+        "offers_count" : 0,
+        "operator_internal_id" : null,
+        "order_messages_response_delay" : null,
+        "orders_count" : 0,
+        "payment_details" : {
+            "paid_balance" : 0.00,
+            "pay_subscription" : true,
+            "payable_balance" : 0.00,
+            "payment_blocked" : false,
+            "pending_balance" : 0.00,
+            "subscription_free_from" : null,
+            "subscription_free_to" : null
+        },
+        "premium" : false,
+        "premium_state" : "DEFAULT",
+        "pro_details" : {
+            "VAT_number" : null,
+            "corporate_name" : "Erin Enterprises",
+            "identification_number" : null,
+            "tax_identification_number" : null
+        },
+        "return_policy" : null,
+        "shipping_country" : null,
+        "shipping_types" : [ "STD" ],
+        "shipping_zones" : [ "ML" ],
+        "shippings" : [ {
+            "additional_fields" : [ ],
+            "shipping_free_amount" : null,
+            "shipping_type_code" : "STD",
+            "shipping_type_label" : "Standard",
+            "shipping_zone_code" : "ML",
+            "shipping_zone_label" : "Mainland"
+        } ],
+        "shop_additional_fields" : [ {
+            "code" : "1099required",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        }, {
+            "code" : "amexaccepted",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "departmentnumber",
+            "type" : "MULTIPLE_VALUES_LIST",
+            "value" : [ "Department1" ]
+        }, {
+            "code" : "fobpoint",
+            "type" : "STRING",
+            "value" : "fobpoint"
+        }, {
+            "code" : "freightpayment",
+            "type" : "STRING",
+            "value" : "freightpayment"
+        }, {
+            "code" : "invoicecurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "managerapproval",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "manageremail",
+            "type" : "STRING",
+            "value" : "manageremailaddress"
+        }, {
+            "code" : "managerfirstname",
+            "type" : "STRING",
+            "value" : "first name"
+        }, {
+            "code" : "managerlastname",
+            "type" : "STRING",
+            "value" : "last name"
+        }, {
+            "code" : "managerphone",
+            "type" : "STRING",
+            "value" : "Phone number "
+        }, {
+            "code" : "manageruserid",
+            "type" : "STRING",
+            "value" : "manageruserid"
+        }, {
+            "code" : "manufacturername",
+            "type" : "STRING",
+            "value" : "manufacturer name goes here "
+        }, {
+            "code" : "paygroup",
+            "type" : "LIST",
+            "value" : "Marketplace"
+        }, {
+            "code" : "paymentcurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "paymentmethod",
+            "type" : "LIST",
+            "value" : "ElectronicPayment"
+        }, {
+            "code" : "paymentterms",
+            "type" : "LIST",
+            "value" : "Bi-weekly"
+        }, {
+            "code" : "paypriority",
+            "type" : "LIST",
+            "value" : "50"
+        }, {
+            "code" : "usvendor",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        } ],
+        "shop_id" : 2005,
+        "shop_name" : "Erin Enterprises",
+        "shop_state" : "OPEN",
+        "suspension_type" : null
+    }, {
+        "applicable_taxes" : [ {
+            "code" : "TAXDEFAULT",
+            "label" : "Default VAT"
+        } ],
+        "approval_delay" : null,
+        "approval_rate" : null,
+        "banner" : null,
+        "billing_info" : {
+            "bank_city" : null,
+            "bank_name" : null,
+            "bank_street" : null,
+            "bic" : null,
+            "iban" : null,
+            "owner" : null,
+            "zip_code" : null
+        },
+        "channels" : [ "INIT" ],
+        "closed_from" : null,
+        "closed_to" : null,
+        "contact_informations" : {
+            "city" : "Apex",
+            "civility" : "Mr",
+            "country" : "USA",
+            "email" : "justin.goeres+hipster-kitty@gmail.com",
+            "fax" : null,
+            "firstname" : "Justin",
+            "lastname" : "Goeres",
+            "phone" : "9259180393",
+            "phone_secondary" : null,
+            "state" : "NC",
+            "street1" : "3609 Lily Orchard Way",
+            "street2" : null,
+            "web_site" : "http://liveareacx.com",
+            "zip_code" : "27539"
+        },
+        "currency_iso_code" : "USD",
+        "date_created" : "2021-08-12T15:16:51Z",
+        "description" : null,
+        "domains" : [ "PRODUCT" ],
+        "evaluations_count" : 0,
+        "free_shipping" : false,
+        "grade" : null,
+        "immunity_date" : null,
+        "is_professional" : true,
+        "kyc" : {
+            "reason" : null,
+            "status" : "APPROVED"
+        },
+        "last_updated_date" : "2021-09-28T14:52:11Z",
+        "logo" : null,
+        "offers_count" : 1,
+        "operator_internal_id" : null,
+        "order_messages_response_delay" : null,
+        "orders_count" : 0,
+        "payment_details" : {
+            "paid_balance" : 0.00,
+            "pay_subscription" : true,
+            "payable_balance" : 0.00,
+            "payment_blocked" : false,
+            "pending_balance" : 0.00,
+            "subscription_free_from" : null,
+            "subscription_free_to" : null
+        },
+        "premium" : false,
+        "premium_state" : "DEFAULT",
+        "pro_details" : {
+            "VAT_number" : null,
+            "corporate_name" : "Hipster Kitty LLC",
+            "identification_number" : null,
+            "tax_identification_number" : null
+        },
+        "return_policy" : null,
+        "shipping_country" : null,
+        "shipping_types" : [ "STD" ],
+        "shipping_zones" : [ "ML" ],
+        "shippings" : [ {
+            "additional_fields" : [ ],
+            "shipping_free_amount" : null,
+            "shipping_type_code" : "STD",
+            "shipping_type_label" : "Standard",
+            "shipping_zone_code" : "ML",
+            "shipping_zone_label" : "Mainland"
+        } ],
+        "shop_additional_fields" : [ {
+            "code" : "1099required",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        }, {
+            "code" : "amexaccepted",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "departmentnumber",
+            "type" : "MULTIPLE_VALUES_LIST",
+            "value" : [ "Department1" ]
+        }, {
+            "code" : "fobpoint",
+            "type" : "STRING",
+            "value" : "fobpoint"
+        }, {
+            "code" : "freightpayment",
+            "type" : "STRING",
+            "value" : "freightpayment"
+        }, {
+            "code" : "invoicecurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "managerapproval",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "manageremail",
+            "type" : "STRING",
+            "value" : "manageremailaddress"
+        }, {
+            "code" : "managerfirstname",
+            "type" : "STRING",
+            "value" : "first name"
+        }, {
+            "code" : "managerlastname",
+            "type" : "STRING",
+            "value" : "last name"
+        }, {
+            "code" : "managerphone",
+            "type" : "STRING",
+            "value" : "Phone number "
+        }, {
+            "code" : "manageruserid",
+            "type" : "STRING",
+            "value" : "manageruserid"
+        }, {
+            "code" : "manufacturername",
+            "type" : "STRING",
+            "value" : "manufacturer name goes here "
+        }, {
+            "code" : "paygroup",
+            "type" : "LIST",
+            "value" : "Marketplace"
+        }, {
+            "code" : "paymentcurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "paymentmethod",
+            "type" : "LIST",
+            "value" : "ElectronicPayment"
+        }, {
+            "code" : "paymentterms",
+            "type" : "LIST",
+            "value" : "Bi-weekly"
+        }, {
+            "code" : "paypriority",
+            "type" : "LIST",
+            "value" : "50"
+        }, {
+            "code" : "usvendor",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        } ],
+        "shop_id" : 2009,
+        "shop_name" : "Hipster Kitty's Hot Deals",
+        "shop_state" : "OPEN",
+        "suspension_type" : null
+    }, {
+        "applicable_taxes" : [ {
+            "code" : "TAXDEFAULT",
+            "label" : "Default VAT"
+        } ],
+        "approval_delay" : null,
+        "approval_rate" : null,
+        "banner" : null,
+        "billing_info" : {
+            "bank_city" : null,
+            "bank_name" : null,
+            "bank_street" : null,
+            "bic" : null,
+            "iban" : null,
+            "owner" : null,
+            "zip_code" : null
+        },
+        "channels" : [ "INIT" ],
+        "closed_from" : null,
+        "closed_to" : null,
+        "contact_informations" : {
+            "city" : "New York",
+            "civility" : "Miss",
+            "country" : "USA",
+            "email" : "connie.szeto@hbc.com",
+            "fax" : null,
+            "firstname" : "Connie",
+            "lastname" : "Szeto",
+            "phone" : null,
+            "phone_secondary" : null,
+            "state" : "NY",
+            "street1" : "250 Liberty Street",
+            "street2" : null,
+            "web_site" : null,
+            "zip_code" : "10281"
+        },
+        "currency_iso_code" : "USD",
+        "date_created" : "2021-08-17T13:35:01Z",
+        "description" : null,
+        "domains" : [ "PRODUCT" ],
+        "evaluations_count" : 0,
+        "free_shipping" : false,
+        "grade" : null,
+        "immunity_date" : null,
+        "is_professional" : true,
+        "kyc" : {
+            "reason" : null,
+            "status" : "APPROVED"
+        },
+        "last_updated_date" : "2021-09-28T14:52:11Z",
+        "logo" : null,
+        "offers_count" : 0,
+        "operator_internal_id" : null,
+        "order_messages_response_delay" : null,
+        "orders_count" : 0,
+        "payment_details" : {
+            "paid_balance" : 0.00,
+            "pay_subscription" : true,
+            "payable_balance" : 0.00,
+            "payment_blocked" : false,
+            "pending_balance" : 0.00,
+            "subscription_free_from" : null,
+            "subscription_free_to" : null
+        },
+        "premium" : false,
+        "premium_state" : "DEFAULT",
+        "pro_details" : {
+            "VAT_number" : null,
+            "corporate_name" : "Just Fruits",
+            "identification_number" : null,
+            "tax_identification_number" : null
+        },
+        "return_policy" : null,
+        "shipping_country" : null,
+        "shipping_types" : [ "STD" ],
+        "shipping_zones" : [ "ML" ],
+        "shippings" : [ {
+            "additional_fields" : [ ],
+            "shipping_free_amount" : null,
+            "shipping_type_code" : "STD",
+            "shipping_type_label" : "Standard",
+            "shipping_zone_code" : "ML",
+            "shipping_zone_label" : "Mainland"
+        } ],
+        "shop_additional_fields" : [ {
+            "code" : "1099required",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        }, {
+            "code" : "amexaccepted",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "departmentnumber",
+            "type" : "MULTIPLE_VALUES_LIST",
+            "value" : [ "Department1" ]
+        }, {
+            "code" : "fobpoint",
+            "type" : "STRING",
+            "value" : "fobpoint"
+        }, {
+            "code" : "freightpayment",
+            "type" : "STRING",
+            "value" : "freightpayment"
+        }, {
+            "code" : "invoicecurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "managerapproval",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "manageremail",
+            "type" : "STRING",
+            "value" : "manageremailaddress"
+        }, {
+            "code" : "managerfirstname",
+            "type" : "STRING",
+            "value" : "first name"
+        }, {
+            "code" : "managerlastname",
+            "type" : "STRING",
+            "value" : "last name"
+        }, {
+            "code" : "managerphone",
+            "type" : "STRING",
+            "value" : "Phone number "
+        }, {
+            "code" : "manageruserid",
+            "type" : "STRING",
+            "value" : "manageruserid"
+        }, {
+            "code" : "manufacturername",
+            "type" : "STRING",
+            "value" : "manufacturer name goes here "
+        }, {
+            "code" : "paygroup",
+            "type" : "LIST",
+            "value" : "Marketplace"
+        }, {
+            "code" : "paymentcurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "paymentmethod",
+            "type" : "LIST",
+            "value" : "ElectronicPayment"
+        }, {
+            "code" : "paymentterms",
+            "type" : "LIST",
+            "value" : "Bi-weekly"
+        }, {
+            "code" : "paypriority",
+            "type" : "LIST",
+            "value" : "50"
+        }, {
+            "code" : "usvendor",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        } ],
+        "shop_id" : 2030,
+        "shop_name" : "Just Fruits",
+        "shop_state" : "OPEN",
+        "suspension_type" : null
+    }, {
+        "applicable_taxes" : [ {
+            "code" : "TAXDEFAULT",
+            "label" : "Default VAT"
+        } ],
+        "approval_delay" : null,
+        "approval_rate" : null,
+        "banner" : null,
+        "billing_info" : {
+            "bank_city" : null,
+            "bank_name" : null,
+            "bank_street" : null,
+            "bic" : null,
+            "iban" : null,
+            "owner" : null,
+            "zip_code" : null
+        },
+        "channels" : [ "INIT" ],
+        "closed_from" : null,
+        "closed_to" : null,
+        "contact_informations" : {
+            "city" : "allen",
+            "civility" : "Mr",
+            "country" : "USA",
+            "email" : "kalpantestemail@gmail.com",
+            "fax" : null,
+            "firstname" : "kalpan",
+            "lastname" : "test",
+            "phone" : null,
+            "phone_secondary" : null,
+            "state" : "tx",
+            "street1" : "111 test st",
+            "street2" : null,
+            "web_site" : null,
+            "zip_code" : "75013"
+        },
+        "currency_iso_code" : "USD",
+        "date_created" : "2021-09-21T20:58:41Z",
+        "description" : null,
+        "domains" : [ "PRODUCT" ],
+        "evaluations_count" : 0,
+        "free_shipping" : false,
+        "grade" : null,
+        "immunity_date" : null,
+        "is_professional" : true,
+        "kyc" : {
+            "reason" : null,
+            "status" : "PENDING_SUBMISSION"
+        },
+        "last_updated_date" : "2021-09-28T14:52:11Z",
+        "logo" : null,
+        "offers_count" : 0,
+        "operator_internal_id" : null,
+        "order_messages_response_delay" : null,
+        "orders_count" : 0,
+        "payment_details" : {
+            "paid_balance" : 0.00,
+            "pay_subscription" : true,
+            "payable_balance" : 0.00,
+            "payment_blocked" : false,
+            "pending_balance" : 0.00,
+            "subscription_free_from" : null,
+            "subscription_free_to" : null
+        },
+        "premium" : false,
+        "premium_state" : "DEFAULT",
+        "pro_details" : {
+            "VAT_number" : null,
+            "corporate_name" : "kalpan test company",
+            "identification_number" : null,
+            "tax_identification_number" : null
+        },
+        "return_policy" : null,
+        "shipping_country" : null,
+        "shipping_types" : [ "STD" ],
+        "shipping_zones" : [ "ML" ],
+        "shippings" : [ {
+            "additional_fields" : [ ],
+            "shipping_free_amount" : null,
+            "shipping_type_code" : "STD",
+            "shipping_type_label" : "Standard",
+            "shipping_zone_code" : "ML",
+            "shipping_zone_label" : "Mainland"
+        } ],
+        "shop_additional_fields" : [ {
+            "code" : "1099required",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        }, {
+            "code" : "amexaccepted",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "departmentnumber",
+            "type" : "MULTIPLE_VALUES_LIST",
+            "value" : [ "Department1" ]
+        }, {
+            "code" : "fobpoint",
+            "type" : "STRING",
+            "value" : "fobpoint"
+        }, {
+            "code" : "freightpayment",
+            "type" : "STRING",
+            "value" : "freightpayment"
+        }, {
+            "code" : "invoicecurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "managerapproval",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "manageremail",
+            "type" : "STRING",
+            "value" : "manageremailaddress"
+        }, {
+            "code" : "managerfirstname",
+            "type" : "STRING",
+            "value" : "first name"
+        }, {
+            "code" : "managerlastname",
+            "type" : "STRING",
+            "value" : "last name"
+        }, {
+            "code" : "managerphone",
+            "type" : "STRING",
+            "value" : "Phone number "
+        }, {
+            "code" : "manageruserid",
+            "type" : "STRING",
+            "value" : "manageruserid"
+        }, {
+            "code" : "manufacturername",
+            "type" : "STRING",
+            "value" : "manufacturer name goes here "
+        }, {
+            "code" : "paygroup",
+            "type" : "LIST",
+            "value" : "Marketplace"
+        }, {
+            "code" : "paymentcurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "paymentmethod",
+            "type" : "LIST",
+            "value" : "ElectronicPayment"
+        }, {
+            "code" : "paymentterms",
+            "type" : "LIST",
+            "value" : "Bi-weekly"
+        }, {
+            "code" : "paypriority",
+            "type" : "LIST",
+            "value" : "50"
+        }, {
+            "code" : "usvendor",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        } ],
+        "shop_id" : 2031,
+        "shop_name" : "kalpan test account",
+        "shop_state" : "SUSPENDED",
+        "suspension_type" : "MANUAL"
+    }, {
+        "applicable_taxes" : [ {
+            "code" : "TAXDEFAULT",
+            "label" : "Default VAT"
+        } ],
+        "approval_delay" : null,
+        "approval_rate" : null,
+        "banner" : null,
+        "billing_info" : {
+            "bank_city" : null,
+            "bank_name" : null,
+            "bank_street" : null,
+            "bic" : null,
+            "iban" : null,
+            "owner" : null,
+            "zip_code" : null
+        },
+        "channels" : [ "INIT" ],
+        "closed_from" : "2021-09-27T16:54:22Z",
+        "closed_to" : null,
+        "contact_informations" : {
+            "city" : "Test Town",
+            "civility" : "Mr",
+            "country" : "USA",
+            "email" : "kvyas@pfsweb.com",
+            "fax" : null,
+            "firstname" : "Test",
+            "lastname" : "Test",
+            "phone" : null,
+            "phone_secondary" : null,
+            "state" : null,
+            "street1" : "1234 Test St",
+            "street2" : null,
+            "web_site" : null,
+            "zip_code" : "11111"
+        },
+        "currency_iso_code" : "USD",
+        "date_created" : "2021-08-11T14:04:31Z",
+        "description" : null,
+        "domains" : [ "PRODUCT" ],
+        "evaluations_count" : 0,
+        "free_shipping" : false,
+        "grade" : null,
+        "immunity_date" : null,
+        "is_professional" : true,
+        "kyc" : {
+            "reason" : null,
+            "status" : "APPROVED"
+        },
+        "last_updated_date" : "2021-09-28T14:52:11Z",
+        "logo" : null,
+        "offers_count" : 0,
+        "operator_internal_id" : null,
+        "order_messages_response_delay" : null,
+        "orders_count" : 0,
+        "payment_details" : {
+            "paid_balance" : 0.00,
+            "pay_subscription" : true,
+            "payable_balance" : 0.00,
+            "payment_blocked" : false,
+            "pending_balance" : 0.00,
+            "subscription_free_from" : null,
+            "subscription_free_to" : null
+        },
+        "premium" : false,
+        "premium_state" : "DEFAULT",
+        "pro_details" : {
+            "VAT_number" : null,
+            "corporate_name" : "KK TEST SHOP",
+            "identification_number" : null,
+            "tax_identification_number" : null
+        },
+        "return_policy" : null,
+        "shipping_country" : null,
+        "shipping_types" : [ "STD" ],
+        "shipping_zones" : [ "ML" ],
+        "shippings" : [ {
+            "additional_fields" : [ ],
+            "shipping_free_amount" : null,
+            "shipping_type_code" : "STD",
+            "shipping_type_label" : "Standard",
+            "shipping_zone_code" : "ML",
+            "shipping_zone_label" : "Mainland"
+        } ],
+        "shop_additional_fields" : [ {
+            "code" : "1099required",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        }, {
+            "code" : "amexaccepted",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "departmentnumber",
+            "type" : "MULTIPLE_VALUES_LIST",
+            "value" : [ "Department1" ]
+        }, {
+            "code" : "fobpoint",
+            "type" : "STRING",
+            "value" : "fobpoint"
+        }, {
+            "code" : "freightpayment",
+            "type" : "STRING",
+            "value" : "freightpayment"
+        }, {
+            "code" : "invoicecurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "managerapproval",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "manageremail",
+            "type" : "STRING",
+            "value" : "manageremailaddress"
+        }, {
+            "code" : "managerfirstname",
+            "type" : "STRING",
+            "value" : "first name"
+        }, {
+            "code" : "managerlastname",
+            "type" : "STRING",
+            "value" : "last name"
+        }, {
+            "code" : "managerphone",
+            "type" : "STRING",
+            "value" : "Phone number "
+        }, {
+            "code" : "manageruserid",
+            "type" : "STRING",
+            "value" : "manageruserid"
+        }, {
+            "code" : "manufacturername",
+            "type" : "STRING",
+            "value" : "manufacturer name goes here "
+        }, {
+            "code" : "paygroup",
+            "type" : "LIST",
+            "value" : "Marketplace"
+        }, {
+            "code" : "paymentcurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "paymentmethod",
+            "type" : "LIST",
+            "value" : "ElectronicPayment"
+        }, {
+            "code" : "paymentterms",
+            "type" : "LIST",
+            "value" : "Bi-weekly"
+        }, {
+            "code" : "paypriority",
+            "type" : "LIST",
+            "value" : "50"
+        }, {
+            "code" : "usvendor",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        } ],
+        "shop_id" : 2007,
+        "shop_name" : "KK - Test Shop",
+        "shop_state" : "CLOSE",
+        "suspension_type" : null
+    }, {
+        "applicable_taxes" : [ {
+            "code" : "TAXDEFAULT",
+            "label" : "Default VAT"
+        } ],
+        "approval_delay" : null,
+        "approval_rate" : null,
+        "banner" : null,
+        "billing_info" : {
+            "bank_city" : null,
+            "bank_name" : null,
+            "bank_street" : null,
+            "bic" : null,
+            "iban" : null,
+            "owner" : null,
+            "zip_code" : null
+        },
+        "channels" : [ "INIT" ],
+        "closed_from" : null,
+        "closed_to" : null,
+        "contact_informations" : {
+            "city" : "San Jose",
+            "civility" : "Mr",
+            "country" : "USA",
+            "email" : "nsingh@pfsweb.com",
+            "fax" : null,
+            "firstname" : "Narayan",
+            "lastname" : "Singh",
+            "phone" : "01234 567 890",
+            "phone_secondary" : null,
+            "state" : "California",
+            "street1" : "4001 Moorpark Ave",
+            "street2" : "4001 Moorpark Ave",
+            "web_site" : "http://www.apparels-ns.com",
+            "zip_code" : "95124"
+        },
+        "currency_iso_code" : "USD",
+        "date_created" : "2021-08-17T12:42:58Z",
+        "description" : null,
+        "domains" : [ "PRODUCT" ],
+        "evaluations_count" : 0,
+        "free_shipping" : false,
+        "grade" : null,
+        "immunity_date" : null,
+        "is_professional" : true,
+        "kyc" : {
+            "reason" : null,
+            "status" : "APPROVED"
+        },
+        "last_updated_date" : "2021-09-28T14:52:11Z",
+        "logo" : null,
+        "offers_count" : 0,
+        "operator_internal_id" : null,
+        "order_messages_response_delay" : null,
+        "orders_count" : 0,
+        "payment_details" : {
+            "paid_balance" : 0.00,
+            "pay_subscription" : true,
+            "payable_balance" : 0.00,
+            "payment_blocked" : false,
+            "pending_balance" : 0.00,
+            "subscription_free_from" : null,
+            "subscription_free_to" : null
+        },
+        "premium" : false,
+        "premium_state" : "DEFAULT",
+        "pro_details" : {
+            "VAT_number" : "41",
+            "corporate_name" : "Narayan apparels",
+            "identification_number" : null,
+            "tax_identification_number" : "41"
+        },
+        "return_policy" : null,
+        "shipping_country" : null,
+        "shipping_types" : [ "STD" ],
+        "shipping_zones" : [ "ML" ],
+        "shippings" : [ {
+            "additional_fields" : [ ],
+            "shipping_free_amount" : null,
+            "shipping_type_code" : "STD",
+            "shipping_type_label" : "Standard",
+            "shipping_zone_code" : "ML",
+            "shipping_zone_label" : "Mainland"
+        } ],
+        "shop_additional_fields" : [ {
+            "code" : "1099required",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        }, {
+            "code" : "amexaccepted",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "departmentnumber",
+            "type" : "MULTIPLE_VALUES_LIST",
+            "value" : [ "Department1" ]
+        }, {
+            "code" : "fobpoint",
+            "type" : "STRING",
+            "value" : "fobpoint"
+        }, {
+            "code" : "freightpayment",
+            "type" : "STRING",
+            "value" : "freightpayment"
+        }, {
+            "code" : "invoicecurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "managerapproval",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "manageremail",
+            "type" : "STRING",
+            "value" : "manageremailaddress"
+        }, {
+            "code" : "managerfirstname",
+            "type" : "STRING",
+            "value" : "first name"
+        }, {
+            "code" : "managerlastname",
+            "type" : "STRING",
+            "value" : "last name"
+        }, {
+            "code" : "managerphone",
+            "type" : "STRING",
+            "value" : "Phone number "
+        }, {
+            "code" : "manageruserid",
+            "type" : "STRING",
+            "value" : "manageruserid"
+        }, {
+            "code" : "manufacturername",
+            "type" : "STRING",
+            "value" : "manufacturer name goes here "
+        }, {
+            "code" : "paygroup",
+            "type" : "LIST",
+            "value" : "Marketplace"
+        }, {
+            "code" : "paymentcurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "paymentmethod",
+            "type" : "LIST",
+            "value" : "ElectronicPayment"
+        }, {
+            "code" : "paymentterms",
+            "type" : "LIST",
+            "value" : "Bi-weekly"
+        }, {
+            "code" : "paypriority",
+            "type" : "LIST",
+            "value" : "50"
+        }, {
+            "code" : "usvendor",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        } ],
+        "shop_id" : 2029,
+        "shop_name" : "Narayan apparels",
+        "shop_state" : "OPEN",
+        "suspension_type" : null
+    }, {
+        "applicable_taxes" : [ {
+            "code" : "TAXDEFAULT",
+            "label" : "Default VAT"
+        } ],
+        "approval_delay" : null,
+        "approval_rate" : null,
+        "banner" : null,
+        "billing_info" : {
+            "bank_city" : null,
+            "bank_name" : null,
+            "bank_street" : null,
+            "bic" : null,
+            "iban" : null,
+            "owner" : null,
+            "zip_code" : null
+        },
+        "channels" : [ "INIT" ],
+        "closed_from" : null,
+        "closed_to" : null,
+        "contact_informations" : {
+            "city" : "San Jose",
+            "civility" : "Mr",
+            "country" : "USA",
+            "email" : "narayan.rawat@gmail.com",
+            "fax" : null,
+            "firstname" : "Narayan",
+            "lastname" : "Singh",
+            "phone" : "6472199080",
+            "phone_secondary" : null,
+            "state" : "California",
+            "street1" : "4001 Moorpark Ave",
+            "street2" : "70 Roehampton Ave",
+            "web_site" : null,
+            "zip_code" : "95124"
+        },
+        "currency_iso_code" : "USD",
+        "date_created" : "2021-08-12T19:13:33Z",
+        "description" : null,
+        "domains" : [ "PRODUCT" ],
+        "evaluations_count" : 0,
+        "free_shipping" : false,
+        "grade" : null,
+        "immunity_date" : null,
+        "is_professional" : true,
+        "kyc" : {
+            "reason" : null,
+            "status" : "APPROVED"
+        },
+        "last_updated_date" : "2021-09-28T14:52:11Z",
+        "logo" : null,
+        "offers_count" : 0,
+        "operator_internal_id" : null,
+        "order_messages_response_delay" : null,
+        "orders_count" : 0,
+        "payment_details" : {
+            "paid_balance" : 0.00,
+            "pay_subscription" : true,
+            "payable_balance" : 0.00,
+            "payment_blocked" : false,
+            "pending_balance" : 0.00,
+            "subscription_free_from" : null,
+            "subscription_free_to" : null
+        },
+        "premium" : false,
+        "premium_state" : "DEFAULT",
+        "pro_details" : {
+            "VAT_number" : "2112",
+            "corporate_name" : "Narayan Stores",
+            "identification_number" : null,
+            "tax_identification_number" : "2112"
+        },
+        "return_policy" : null,
+        "shipping_country" : null,
+        "shipping_types" : [ "STD" ],
+        "shipping_zones" : [ "ML" ],
+        "shippings" : [ {
+            "additional_fields" : [ ],
+            "shipping_free_amount" : null,
+            "shipping_type_code" : "STD",
+            "shipping_type_label" : "Standard",
+            "shipping_zone_code" : "ML",
+            "shipping_zone_label" : "Mainland"
+        } ],
+        "shop_additional_fields" : [ {
+            "code" : "1099required",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        }, {
+            "code" : "amexaccepted",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "departmentnumber",
+            "type" : "MULTIPLE_VALUES_LIST",
+            "value" : [ "Department1" ]
+        }, {
+            "code" : "fobpoint",
+            "type" : "STRING",
+            "value" : "fobpoint"
+        }, {
+            "code" : "freightpayment",
+            "type" : "STRING",
+            "value" : "freightpayment"
+        }, {
+            "code" : "invoicecurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "managerapproval",
+            "type" : "BOOLEAN",
+            "value" : "false"
+        }, {
+            "code" : "manageremail",
+            "type" : "STRING",
+            "value" : "manageremailaddress"
+        }, {
+            "code" : "managerfirstname",
+            "type" : "STRING",
+            "value" : "first name"
+        }, {
+            "code" : "managerlastname",
+            "type" : "STRING",
+            "value" : "last name"
+        }, {
+            "code" : "managerphone",
+            "type" : "STRING",
+            "value" : "Phone number "
+        }, {
+            "code" : "manageruserid",
+            "type" : "STRING",
+            "value" : "manageruserid"
+        }, {
+            "code" : "manufacturername",
+            "type" : "STRING",
+            "value" : "manufacturer name goes here "
+        }, {
+            "code" : "paygroup",
+            "type" : "LIST",
+            "value" : "Marketplace"
+        }, {
+            "code" : "paymentcurrency",
+            "type" : "LIST",
+            "value" : "USD"
+        }, {
+            "code" : "paymentmethod",
+            "type" : "LIST",
+            "value" : "ElectronicPayment"
+        }, {
+            "code" : "paymentterms",
+            "type" : "LIST",
+            "value" : "Bi-weekly"
+        }, {
+            "code" : "paypriority",
+            "type" : "LIST",
+            "value" : "50"
+        }, {
+            "code" : "usvendor",
+            "type" : "BOOLEAN",
+            "value" : "true"
+        } ],
+        "shop_id" : 2018,
+        "shop_name" : "Narayan Stores",
+        "shop_state" : "OPEN",
+        "suspension_type" : null
+    } ],
+    "total_count" : 12
+}
+

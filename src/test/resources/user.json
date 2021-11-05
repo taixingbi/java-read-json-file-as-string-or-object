@@ -1,0 +1,16 @@
+{
+    "id":"2",
+    "name":"taixingbi",
+    "email":"tb@gmail.com",
+    "address": [
+        {
+            "city": "BK",
+            "state": "NY"
+        },
+        {
+            "city": "San Jose",
+            "state": "CA"
+        }
+    ]
+}
+
